@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f7f7f7;
+}
+h1 {
+  color: #253858;
+}
+form {
+  margin-bottom: 24px;
+}
+input[type="url"] {
+  padding: 8px;
+  width: 350px;
+}
+button {
+  padding: 8px 16px;
+  background-color: #253858;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#summary-output {
+  background: #fff;
+  padding: 16px;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  width: 90%;
+  max-width: 700px;
+  word-wrap: break-word;
+}
